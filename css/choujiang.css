@@ -1,0 +1,207 @@
+.right_choujiang {
+    display: none;
+    float: left;
+    height: 100%;
+    width: calc(100% - 282px);
+    /* background-color: pink; */
+}
+
+li.eight:active .right_choujiang {
+    display: block;
+}
+
+
+/* 头部 */
+
+.right_choujiang .title_info {
+    width: 980px;
+    height: 70px;
+    color: #fff;
+    /* background-color: skyblue; */
+}
+
+.right_choujiang .title_info .top_info {
+    margin-top: 90px;
+    margin-left: 130px;
+    font-size: 20px;
+    color: rgb(228, 151, 36);
+}
+
+.right_choujiang .title_info .bottom_info {
+    /* margin-top: 10px; */
+    margin-left: 130px;
+}
+
+.right_choujiang .title_info .bottom_info .qiandao {
+    margin-left: 154px;
+}
+
+.right_choujiang .title_info .bottom_info .qiandao button {
+    width: 104px;
+    height: 42px;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    background-color: #555;
+}
+
+
+/* 抽奖区域 */
+
+#lottery {
+    float: left;
+    width: 390px;
+    height: 360px;
+    margin-left: 130px;
+    /* margin-top: 20px; */
+    /* border: 4px solid #ba1809; */
+}
+
+#lottery table {
+    background-color: #fff;
+}
+
+#lottery table td {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    color: #333;
+    /* font-index: -999; */
+}
+
+#lottery table td img {
+    display: block;
+    width: 130px;
+    height: 120px;
+}
+
+#lottery table td a {
+    width: 130px;
+    height: 90px;
+    display: block;
+    text-decoration: none;
+    background: url(../images/开始.png) no-repeat top center;
+}
+
+#lottery table td.active .mask {
+    display: block;
+}
+
+.mask {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(252, 211, 4, 0.5);
+    display: none;
+}
+
+
+/* 中奖信息部分 */
+
+.prize_box {
+    float: right;
+    width: 160px;
+    height: 275px;
+    background-color: rgb(86, 87, 136);
+    margin-top: 81px;
+    margin-right: 130px;
+    border: 2px solid #666;
+    border-radius: 20px;
+    /* 用于继承颜色 */
+    color: #fff;
+}
+
+.prize_box .prize_list {
+    margin-left: 10px;
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.prize_box .prize_list div {
+    height: 40px;
+    line-height: 40px;
+}
+
+.prize_box .prize_list .prize_item {
+    height: 30px;
+    line-height: 30px;
+    font-size: 13px;
+}
+
+.prize_box .prize_list::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* 弹窗部分 */
+
+.model {
+    display: none;
+    position: fixed;
+    top: 60px;
+    left: 640px;
+    width: 300px;
+    height: 330px;
+    border: 2px solid rgb(251, 238, 141);
+    border-radius: 20px;
+    background-color: rgb(255, 193, 43);
+}
+
+.model .title {
+    height: 50px;
+    /* width: 100%; */
+    font-size: 25px;
+    line-height: 50px;
+    padding-left: 130px;
+    color: rgb(200, 61, 36);
+    /* background-color: rgb(255, 193, 43); */
+}
+
+.model .content {
+    height: 210px;
+    width: 250px;
+    font-size: 20px;
+    /* line-height: 150px; */
+    margin-left: 25px;
+    /* margin-top: 10px; */
+    background-color: rgb(255, 178, 30);
+}
+
+.model .content img {
+    display: block;
+    height: 150px;
+    width: 150px;
+    margin: 0 auto;
+}
+
+.model .content .message {
+    display: block;
+    margin-left: 20px;
+    padding-top: 18px;
+    /* margin-top: 10px; */
+}
+
+.model .confirm {
+    height: 60px;
+    width: 100%;
+    /* background-color: gray; */
+}
+
+.model .confirm button {
+    height: 50px;
+    width: 195px;
+    font-size: 20px;
+    line-height: 50px;
+    margin-top: 4px;
+    margin-left: 50px;
+    border: none;
+    border-radius: 25px;
+    box-shadow: rgb(232, 42, 41) 2px 2px;
+    background-color: rgb(253, 102, 50);
+}

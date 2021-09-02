@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 2755253 */
+  src: url('iconfont.woff2?t=1630388531476') format('woff2'),
+       url('iconfont.woff?t=1630388531476') format('woff'),
+       url('iconfont.ttf?t=1630388531476') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-choujiang:before {
+  content: "\e649";
+}
+
+.icon-dian:before {
+  content: "\e608";
+}
+
+.icon-WeatherSnowShowerDay:before {
+  content: "\e6f4";
+}
+
+.icon-music:before {
+  content: "\e60a";
+}
+
+.icon-news:before {
+  content: "\e63d";
+}
+
+.icon-banquan:before {
+  content: "\e98b";
+}
+
+.icon-cangchucangku:before {
+  content: "\e98c";
+}
+
+.icon-jiekoupeizhi:before {
+  content: "\e990";
+}
+
+.icon-kuaisugaoxiao:before {
+  content: "\e991";
+}
+
+.icon-lianjie:before {
+  content: "\e992";
+}
+
+.icon-guanli:before {
+  content: "\e993";
+}
+
+.icon-tubiaozhutu:before {
+  content: "\e997";
+}
+
+.icon-yinle:before {
+  content: "\e99a";
+}
+
+.icon-mail:before {
+  content: "\e99e";
+}
+
+.icon-home:before {
+  content: "\e656";
+}
+

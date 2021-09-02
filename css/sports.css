@@ -1,0 +1,315 @@
+/* 右侧体育功能模块 */
+
+.right_sports {
+    display: none;
+    float: left;
+    height: 100%;
+    width: calc(100% - 292px);
+    margin-top: 10px;
+    margin-left: 10px;
+    /* padding: 30px; */
+    background-color: rgb(18, 25, 44);
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.right_sports::-webkit-scrollbar {
+    display: none;
+}
+
+.footballClub {
+    width: 1000px;
+    margin: 0px auto 0;
+    font-size: 24px;
+    color: #fff;
+}
+
+.fcAdd {
+    margin-top: 30px;
+    float: left;
+}
+
+.fc001 {
+    margin: 20px;
+    float: left;
+}
+
+.fc002 {
+    margin: 20px;
+    float: left;
+}
+
+.fc003 {
+    margin: 20px;
+    float: left;
+}
+
+.NBANews {
+    width: 1000px;
+    margin: 90px auto 0;
+    font-size: 24px;
+    color: #fff;
+}
+
+.NBAAdd {
+    margin-top: 30px;
+    float: left;
+}
+
+.NBA001 {
+    margin: 20px;
+    float: left;
+}
+
+.NBA002 {
+    margin: 20px;
+    float: left;
+}
+
+.NBA003 {
+    margin: 20px;
+    float: left;
+}
+
+.National {
+    width: 1000px;
+    margin: 90px auto 0;
+    font-size: 24px;
+    color: #fff;
+}
+
+.naAdd {
+    margin-top: 30px;
+    float: left;
+}
+
+.na001 {
+    margin: 20px;
+    float: left;
+}
+
+.na002 {
+    margin: 20px;
+    float: left;
+}
+
+.na003 {
+    margin: 20px;
+    float: left;
+}
+
+.fcCon {
+    display: none;
+    float: left;
+    width: calc(100% - 302px);
+    height: 100%;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 24px;
+    line-height: 35px;
+    color: #fff;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.fcCon::-webkit-scrollbar {
+    display: none;
+}
+
+.fc001Con {
+    display: none;
+    float: left;
+    width: calc(100% - 302px);
+    height: 100%;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 24px;
+    line-height: 35px;
+    color: #fff;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.fc001Con::-webkit-scrollbar {
+    display: none;
+}
+
+.fc002Con {
+    display: none;
+    float: left;
+    width: calc(100% - 302px);
+    height: 100%;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 24px;
+    line-height: 35px;
+    color: #fff;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.fc002Con::-webkit-scrollbar {
+    display: none;
+}
+
+.fc003Con {
+    display: none;
+    float: left;
+    width: calc(100% - 302px);
+    height: 100%;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 24px;
+    line-height: 35px;
+    color: #fff;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.fc003Con::-webkit-scrollbar {
+    display: none;
+}
+
+.NBACon {
+    display: none;
+    float: left;
+    width: calc(100% - 302px);
+    height: 100%;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 24px;
+    line-height: 35px;
+    color: #fff;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.NBACon::-webkit-scrollbar {
+    display: none;
+}
+
+.NBA001Con {
+    display: none;
+    float: left;
+    width: calc(100% - 302px);
+    height: 100%;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 24px;
+    line-height: 35px;
+    color: #fff;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.NBA001Con::-webkit-scrollbar {
+    display: none;
+}
+
+.NBA002Con {
+    display: none;
+    float: left;
+    width: calc(100% - 302px);
+    height: 100%;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 24px;
+    line-height: 35px;
+    color: #fff;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.NBA002Con::-webkit-scrollbar {
+    display: none;
+}
+
+.NBA003Con {
+    display: none;
+    float: left;
+    width: calc(100% - 302px);
+    height: 100%;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 24px;
+    line-height: 35px;
+    color: #fff;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.NBA003Con::-webkit-scrollbar {
+    display: none;
+}
+
+.naCon {
+    display: none;
+    float: left;
+    width: calc(100% - 302px);
+    height: 100%;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 24px;
+    line-height: 35px;
+    color: #fff;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.naCon::-webkit-scrollbar {
+    display: none;
+}
+
+.na001Con {
+    display: none;
+    float: left;
+    width: calc(100% - 302px);
+    height: 100%;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 24px;
+    line-height: 35px;
+    color: #fff;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.na001Con::-webkit-scrollbar {
+    display: none;
+}
+
+.na002Con {
+    display: none;
+    float: left;
+    width: calc(100% - 302px);
+    height: 100%;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 24px;
+    line-height: 35px;
+    color: #fff;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.na002Con::-webkit-scrollbar {
+    display: none;
+}
+
+.na003Con {
+    display: none;
+    float: left;
+    width: calc(100% - 302px);
+    height: 100%;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 24px;
+    line-height: 35px;
+    color: #fff;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.na003Con::-webkit-scrollbar {
+    display: none;
+}
